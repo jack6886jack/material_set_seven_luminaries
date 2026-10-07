@@ -1,0 +1,13 @@
+{
+  "modID": "seven_luminaries",
+  "name": "七曜牌体",
+  "version": "1.0.0",
+  "author": "Jack",
+  "description": "七曜牌体模组",
+  "supportedGameVersions": [
+    {
+      "minInclusive": "0.7.0.1",
+      "maxInclusive": "0.7.1.0"
+    }
+  ]
+}
