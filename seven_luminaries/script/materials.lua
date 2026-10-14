@@ -443,7 +443,7 @@ function M.register()
                     end
                 end
             end
-            if actived == 1 then
+            if actived == 0 then
                 if player:Selecting(tile) then
                     local played = player:GetSelectedTilesCopy()
                     local cnt = 0
@@ -454,7 +454,6 @@ function M.register()
                             cnt = cnt + 1
                         end
                     end
-                    -- log("test1")
                     if cnt ~= 0 then
                         local place = player:GenerateRandomInt(cnt) + 1
                         for i = 0, played.Count - 1 do
@@ -469,7 +468,8 @@ function M.register()
                         end
                     end
                 end
-                effects:Add(Aotenjo.ScoreEffect.MulFan(1.5,nil))
+            else
+                effects:Add(Aotenjo.ScoreEffect.MulFan(1.2,nil))
             end
         end)
         -- :OnUnsubscribe(function(player, material)

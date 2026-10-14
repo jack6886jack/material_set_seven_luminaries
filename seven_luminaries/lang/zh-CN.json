@@ -23,10 +23,10 @@
     "tile_seven_luminaries:fireactived_material_description" : "<style=\"on_counting\">计分时</style>:+10番",
     "tile_seven_luminaries:fireshow_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"green\">木牌</style>\n激活前效果\n<style=\"on_counting\">计分时</style>:+4番\n激活后效果\n<style=\"on_counting\">计分时</style>:+10番",
     "tile_seven_luminaries:earth_material_name" : "<color=#A0522D>土牌</color>",
-    "tile_seven_luminaries:earth_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"blue\">水牌</style>\n激活后效果\n<style=\"on_counting\">打出时</style>:将一同打出的一张普通牌(若有)转化成<style=\"on_counting\">七曜牌</style>\n<style=\"on_counting\">计分时</style>:X1.5番",
-    "tile_seven_luminaries:earthinactive_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"blue\">水牌</style>",
-    "tile_seven_luminaries:earthactived_material_description" : "<style=\"on_counting\">打出时</style>:将一同打出的一张普通牌(若有)转化成<style=\"on_counting\">七曜牌</style>\n<style=\"on_counting\">计分时</style>:X1.5番",
-    "tile_seven_luminaries:earthshow_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"blue\">水牌</style>\n激活后效果\n<style=\"on_counting\">打出时</style>:将一同打出的一张普通牌(若有)转化成<style=\"on_counting\">七曜牌</style>\n<style=\"on_counting\">计分时</style>:X1.5番",
+    "tile_seven_luminaries:earth_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"blue\">水牌</style>\n激活前效果\n<style=\"on_counting\">打出时</style>:将一同打出的一张普通牌(若有)转化成<style=\"on_counting\">七曜牌</style>\n激活后效果\n<style=\"on_counting\">计分时</style>:X1.2番",
+    "tile_seven_luminaries:earthinactive_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"blue\">水牌</style>\n<style=\"on_counting\">打出时</style>:将一同打出的一张普通牌(若有)转化成<style=\"on_counting\">七曜牌</style>",
+    "tile_seven_luminaries:earthactived_material_description" : "<style=\"on_counting\">计分时</style>:X1.2番",
+    "tile_seven_luminaries:earthshow_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"blue\">水牌</style>\n激活前效果\n<style=\"on_counting\">打出时</style>:将一同打出的一张普通牌(若有)转化成<style=\"on_counting\">七曜牌</style>\n激活后效果\n<style=\"on_counting\">计分时</style>:X1.2番",
     "tile_seven_luminaries:sun_material_name" : "<color=#FF8800>日牌</color>",
     "tile_seven_luminaries:sun_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"purple\">月牌</style>\n激活前效果\n<style=\"on_counting\">计分时</style>:X2番\n激活后效果\n<style=\"on_counting\">计分时</style>:X4番",
     "tile_seven_luminaries:suninactive_material_description" : "<style=\"seven_luminaries_active\">激活</style>:<style=\"purple\">月牌</style>\n<style=\"on_counting\">计分时</style>:X2番",
@@ -75,7 +75,7 @@
     "artifact_seven_luminaries:golden_dan_description": "<style=\"fuzeng\">附赠5</style>,每通过<style=\"yellow\">金牌</style>获得<style=\"money\">1</style>,为该遗物永久提升X0.02番\n\n(当前X%s番)",
 
     "tooltip_seven_luminaries_active_header": "激活",
-    "tooltip_seven_luminaries_active_content": "当<style=\"on_counting\">七曜牌</style>跟所标注的牌一同打出时,该<style=\"on_counting\">七曜牌</style>被激活。激活后的<style=\"on_counting\">七曜牌</style>拥有更强力的效果",
+    "tooltip_seven_luminaries_active_content": "当<style=\"on_counting\">七曜牌</style>跟所标注的牌在同一手打出时,该<style=\"on_counting\">七曜牌</style>被激活。激活后的<style=\"on_counting\">七曜牌</style>拥有更强力的效果",
 
     "material_set_seven_luminaries:seven_luminaries_name" : "七曜"
 }
